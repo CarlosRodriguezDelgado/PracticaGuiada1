@@ -1,15 +1,20 @@
 .container {
-    display: grid;
-    grid-template-columns: 50px 50px 50px 50px;
+     display: grid;
+    /*grid-template-columns: 50px 50px 50px 50px;
     grid-template-rows: auto;
     grid-template-areas:
         "header header header header"
         "main main . sidebar"
-        "footer footer footer footer";
-
+        "footer footer footer footer"; */
+/*     caso #1
+    grid-template-columns: auto auto;
+    gap: 10px; */
+    /* caso #2*/
+    grid-template-columns: 1fr 1fr;
+    gap :10px; 
 }
 
-.item1 {
+.item {
     background-color: rgb(173, 230, 187);
     padding: 5%;
     text-align: center;
